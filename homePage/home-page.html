@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ocean Sphere</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="home-page.css">
+    <link rel="shortcut icon" href="images/logo.webp" type="image/x-icon">
+</head>
+
+<body>
+
+    <!-- NAV BAR -->
+    <nav class="navbar fixed-top position-sticky fade-bg navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid ">
+            <a class="navbar-brand" href="home-page.html"><img src="images/logo.webp" height="" width="200"
+                    class=" rounded-pill img-fluid w-sm-20" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-lg-0">
+                    <li class="nav-item mx-2 ">
+                        <a class="nav-link active fs-5 text-light fw-bold" aria-current="page"
+                            href="../homePage/home-page.html">HOME</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link fs-5 text-light fw-bold" href="../gallery/gallery.html">GALLERY</a>
+                    </li>
+                    <li class="nav-item mx-2 dropdown">
+                        <a class="nav-link dropdown-toggle fs-5 text-light fw-bold" href="../event/event.html"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            EVENTS
+                        </a>
+                        <ul class="dropdown-menu fade-vertical">
+                            <li><a class="dropdown-item text-light" href="../event/event.html">All Events List</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item text-light" href="../event/event.html#diving">Diving
+                                    Experience</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item text-light" href="../event/event.html#jellyfish">Jellyfish Light
+                                    Show</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item text-light" href="../event/event.html#dolphin">Dolphin Show</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item text-light" href="../event/event.html#penguin">Penguin
+                                    Encounter</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item text-light" href="../event/event.html#school">School Tour</a>
+                            </li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link fs-5 text-light fw-bold" href="../booking/booking.html">ONLINE BOOKING</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link fs-5 text-light fw-bold" href="../contactUs/contact-us.html">CONTACT US</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link fs-5 text-light fw-bold" href="../help/help.html">HELP</a>
+                    </li>
+                </ul>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                    <a class="btn btn-outline-success fw-bod me-md-2" href="../booking/booking.html" type="button">Book Tickets</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- VIDEO SPACE -->
+    <div class="position-relative overflow-hidden w-100 " style="height: 85vh;">
+        <video class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover" autoplay loop muted playsinline>
+            <source src="images/homepage video.mp4" type="video/mp4">
+        </video>
+
+        <div class="position-absolute bottom-0 start-50 translate-middle-x text-center text-white p-4 w-100">
+            <h3 class="fw-bold">Welcome to Ocean Sphere</h3>
+            <a href="#" class="btn btn-light btn-md" id="home-pageBtn" onclick="scrollToIntro()">Get Started</a>
+        </div>
+    </div>
+
+    <!-- INTRODUCTION -->
+    <div class="container container-md p-4 d-flex align-items-center mt-5 ">
+        <div class="row justify-content-center ">
+
+            <div class="col-12 col-md-6 mb-4 mb-md-0">
+                <h3 class="fw-light font-monospace text-center text-md-start">BENEATH THE WAVES</h3>
+                <h2 class="text-center text-md-start">Explore the wonders of Ocean Sphere & Underwater Zoo</h2>
+                <p class="text-center text-md-start">Dive into the deep at Ocean Sphere & Underwater Zoo. Wander through
+                    a colossal
+                    underwater
+                    tunnel amidst
+                    vibrant schools of fish, sharks, rays and more. Encounter thousands of diverse aquatic and
+                    land-dwelling
+                    species, including our beloved Royal Croc duo. Enhance your experience with exclusive diving
+                    adventures
+                    and
+                    cap off your day at the Aquarium Cafe.</p>
+                <div class="text-center text-md-start">
+                    <a href="../booking/booking.html" class="btn ticket ">Book Tickets</a>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 text-center ">
+                <img src="images/home-page1.jpg" height="450" width="600" class="img-fluid w-100 w-md-75 w-lg-50 rounded"
+                    alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- last part -->
+
+    <div class="container mt-5 p-4 d-flex align-items-center">
+        <div class="row text-center">
+            <div>
+                <h4 class="font-monospace text-center">Education</h4>
+                <h2 class="text-center">Mindful Learning Adventures</h2>
+                <p class="text-center">Through our educational experiences that combine hands-on exploration,
+                    observation and
+                    thought-provoking discussions, Ocean Sphere's educational programmes offers students, guests and
+                    the wider community insights into the marine world, habitats and a deeper understanding of
+                    conservation. Additionally, the Ocean School Education Programme, seamlessly integrates innovative
+                    learning experiences with current curriculum trends</p>
+                <a href="" class="btn ticket">Learn more</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- CARDS -->
+    <div class="container py-5 h-50">
+        <div class="d-flex flex-wrap justify-content-around gap-4">
+
+            <div class="card shadow-lg border-0 rounded-4" style="width: 18rem;">
+                <img src="images/home-page2.webp" class="card-img-top rounded-top-4 small-img" alt="Internship Programme">
+                <div class="card-body text-center">
+                    <h3 class="card-title head fw-bold">🌟 Internship Programme</h3>
+                    <p class="card-text text-secondary fw-semibold">Gain hands-on experience in the marine world!</p>
+                    <div>
+                        <i class="btn bi bi-chevron-right"></i>
+                        <p class="lrnBtn fs-6 font-monospace text-uppercase">Learn More</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card shadow-lg border-0 rounded-4" style="width: 18rem;">
+                <img src="images/home-page3.webp" class="card-img-top rounded-top-4 small-img " alt="Junior and Senior Aquarist">
+                <div class="card-body text-center">
+                    <h3 class="card-title head fw-bold">🐠 Aquarist Roles</h3>
+                    <p class="card-text text-secondary fw-semibold">Work closely with marine life as a Junior or Senior
+                        Aquarist!</p>
+                    <div>
+                        <i class="btn bi bi-chevron-right"></i>
+                        <p class="lrnBtn fs-6 font-monospace text-uppercase">Learn More</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="card shadow-lg border-0 rounded-4" style="width: 18rem;">
+                <img src="images/home-page4.webp" class="card-img-top rounded-top-4 small-img" alt="Ocean School Education Programme">
+                <div class="card-body text-center">
+                    <h3 class="card-title head fw-bold">📘 Ocean School</h3>
+                    <p class="card-text text-secondary fw-semibold">Learn through engaging lessons and dive into ocean
+                        exploration.</p>
+                    <div>
+                        <i class="btn bi bi-chevron-right"></i>
+                        <p class="lrnBtn fs-6 font-monospace text-uppercase">Learn More</p>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+
+    <footer class="text-white py-5 mt-5">
+        <div class="container">
+          <div class="d-flex flex-column flex-md-row justify-content-between align-items-start">
+      
+            <div class="mb-4 mb-md-0">
+              <a href="/">
+                <img src="images/logo.webp" alt="Ocean Sphere Logo" class="img-fluid rounded-circle"
+                  style="max-height: 10rem; transition: transform 0.3s ease;"
+                  onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
+              </a>
+            </div>
+      
+            <div class="d-none d-lg-flex flex-column text-center text-lg-start">
+              <span class="mb-2">
+                <i class="bi bi-house-door-fill"></i>
+                <a href="../homePage/home-page.html" class="text-white head fw-semibold fs-5 text-decoration-none">Home Page</a>
+              </span>
+              <span class="mb-2">
+                <i class="bi bi-ticket-fill"></i>
+                <a href="../booking/booking.html" class="text-white head fw-semibold fs-5 text-decoration-none">Online Booking</a>
+              </span>
+              <span class="mb-2">
+                <i class="bi bi-telephone-fill"></i>
+                <a href="../contactUs/contact-us.html" class="text-white head fw-semibold fs-5 text-decoration-none">Contact Us</a>
+              </span>
+              <span class="mb-2">
+                <i class="bi bi-gear-fill"></i>
+                <a href="../help/help.html" class="text-white head fw-semibold fs-5 text-decoration-none">Help</a>
+              </span>
+            </div>
+      
+            <div class="text-center text-md-end mt-4 mt-md-0">
+              <h5 class="fw-bold head mb-3">Stay Connected with Ocean Sphere</h5>
+              <div class="d-flex justify-content-center justify-content-md-end gap-4 mb-3">
+                <a href="https://www.instagram.com/" class="text-white fs-4" style="transition: color 0.3s;"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.facebook.com/" class="text-white fs-4" style="transition: color 0.3s;"><i class="bi bi-facebook"></i></a>
+                <a href="mailto:info@oceansphere.com" class="text-white fs-4" style="transition: color 0.3s;"><i class="bi bi-envelope-fill"></i></a>
+              </div>
+              <p class="small mb-2">Follow us on social media for the latest updates and insights.</p>
+              <p class="mb-0">&copy; 2025 <strong>Ocean Sphere</strong>. All rights reserved.</p>
+            </div>
+      
+          </div>
+        </div>
+      </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="home-page.js"></script>
+
+</body>
+
+</html>

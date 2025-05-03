@@ -1,0 +1,102 @@
+body{
+    background-image: url(images/background\ picture.jpg);
+   backface-visibility: visible;
+    background-repeat:no-repeat;
+    background-size: cover;
+
+}
+/* nav bar */
+.fade-bg {
+    background: linear-gradient(to right, #1c4d4f, #1c4d4f, #156b6e, #286e6b , #078b77, #09a197);
+}
+
+.fade-vertical {
+    background: linear-gradient(to bottom, #1c4d4f, #156b6e, #286e6b, #078b77, #09a197);
+}
+
+.dropdown-item:hover {
+    background-color: whitesmoke !important;
+    color: #286e6b !important;
+}
+
+@media screen and (max-width:991px) {
+    .dropdown-item:hover {
+
+        background-color: whitesmoke !important;
+        color: #286e6b !important;
+    }
+}
+.nav-link{
+    font-family: cambria, roboto !important;
+    transition: transform 0.3s ease;
+}
+.nav-link:hover{
+    transform: translateX(+5px);
+    color: #23ccd7 !important;
+}
+.btn-outline-success{
+    background: linear-gradient(to bottom, #1c4d4f, #156b6e, #286e6b, #078b77, #09a197);
+    color: whitesmoke;
+    transition: transform 0.3s ease;
+    font-family: cambria, roboto !important;
+}
+.btn-outline-success:hover{
+    background: linear-gradient(to left, #1c4d4f, #1c4d4f, #286e6b, #078b77, #09a197);
+    transform: translateX(-10px);
+    color: #23ccd7;
+}
+section{
+    background: linear-gradient(to right, #1c4d4f, #1c4d4f, #156b6e, #286e6b , #078b77, #09a197);   
+}
+
+/*  CONTACT FORM */
+.error {
+    border: 1px solid red;
+  }
+
+  .error-message {
+    color: red;
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+  }
+.contact-section{
+    background: linear-gradient(to bottom, #1c4d4f, #1c4d4f, #1c4d4f, #156b6e, #286e6b, #078b77);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 0 15px rgba(0, 207, 255, 0.3);
+}
+
+.contact-section:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 207, 255, 0.5);
+}
+
+.btn-primary {
+    background-color: #1c4d4f;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-primary:hover {
+    background-color: #09a197;
+  }
+  
+  .map-container {
+    border-radius: 0.75rem;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  iframe {
+    width: 100%;
+    height: 300px;
+    border: 0;
+  }
+
+.head{
+    font-family: combria,roboto;
+}
+
+/* footer */
+footer {
+    background: linear-gradient(to right, #1c4d4f, #1c4d4f, #1c4d4f, #156b6e, #286e6b, #078b77, #09a197) !important;
+    position: sticky;
+}
