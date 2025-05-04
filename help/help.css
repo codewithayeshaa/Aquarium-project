@@ -3,7 +3,7 @@
 body {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image: url(images/background\ picture.jpg);
+    background-image: url(/help/images/background\ picture.jpg);
     background-repeat: repeat;
     background-position: center;
     background-attachment: fixed;
@@ -58,13 +58,13 @@ section{
 
 /* HERO SECTION */
 .header {
-    background-image: url(images/pic.jpg);
+    background-image: url(/help/images/pic.jpg);
   background-size: cover; 
   background-color: rgba(0, 0, 0, 0.192);
 }
 @media(max-width:570px){
     .header{
-        background-image: url(images/responsive.jpg);
+        background-image: url(/help/images/responsive.jpg);
     }
     .header h1{
 font-size: x-large;
